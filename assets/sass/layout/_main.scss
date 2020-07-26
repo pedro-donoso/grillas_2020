@@ -1,0 +1,64 @@
+.container{
+    background: #fff;
+    width: 100%;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container > .article,
+.container > .related-post,
+.container > div {
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.container > .related-post {
+
+    background: #2d3436;
+    color: #ffffff;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.container > .related-post:hover {
+
+cursor: pointer;
+color: #000000;
+background: #ffffff;
+}
+
+.container .sidebar img {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .container .header {
+        text-align: center;
+    }
+
+    .container .content {
+        text-align: center;
+        grid-column: 1/6;
+    }
+
+    .container .sidebar {
+        text-align: center;
+        grid-column: 1/6;
+    }
+
+    .container .related-post {
+        text-align: center;
+        grid-column: 1/6;
+    }
+
+}

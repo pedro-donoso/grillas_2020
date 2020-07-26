@@ -1,0 +1,11 @@
+.container > .sidebar{
+    background: #485460;
+    padding: 20px;
+    border: 1px solid #000000;
+    grid-column: span 2;
+    color: #ffffff;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column; 
+}

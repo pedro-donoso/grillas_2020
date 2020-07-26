@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  font-family: 'Manjari', sans-serif; 
+}
+
+body {
+  background: radial-gradient(black 3px, transparent 4px), radial-gradient(black 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; 
+}
+
+.container > .content {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #000000;
+  grid-column: span 3; 
+  width: 100%;
+}
+
+.content > .article h1,
+.content > .article p {
+  padding: 10px; 
+  width: 90%;
+}
+
+.title > h1 {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2.9em;
+  text-transform: uppercase; 
+  width: 100%;
+}
+
+.container > .header {
+  background: #fff;
+  
+  border: 1px solid #000000;
+  display: grid;
+  grid-column: 1/6;
+  background: #1e272e;
+  color: #ffffff; 
+  width: 100%;
+  height: 4rem;
+}
+
+.container {
+  background: #fff;
+  width: 90%;
+  margin: 1.6em auto;
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: repeat(5, 1fr); 
+}
+
+.container > .article,
+.container > div {
+  background: #808e9b;
+  color: #dfe6e9;
+  padding: 20px;
+  margin-top: 5px;
+  border: 2px solid red; 
+  width: 90%;
+}
+
+.container > .related-post {
+  background: #2d3436;
+  color: #ffffff;
+  height: 180px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease; 
+  text-align: center;
+  grid-row: 3/6;  
+  width: 80%;
+
+}
+
+.container > .related-post:hover {
+  cursor: pointer;
+  color: #000000;
+  background: #ffffff; 
+}
+
+.container > .sidebar {
+  width: 93%;
+  display: grid;
+  grid-column: 4/6;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #000000;
+}
+
+.container > .sidebar img {
+  width: 90%;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+}
+
+.container >.footer {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #000000;
+  display: grid;
+  grid-column: 1/6;
+  background: #1e272e;
+  color: #ffffff; 
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
